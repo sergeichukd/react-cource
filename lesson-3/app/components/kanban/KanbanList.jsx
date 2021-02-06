@@ -16,7 +16,7 @@ export default class KanbanList extends React.Component {
       />
     })
     return (
-      <div className='canban-list'>
+      <div className='list'>
         <h1>{this.props.title}</h1>
         {cards}
       </div>
