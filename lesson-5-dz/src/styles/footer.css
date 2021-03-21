@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 100px;
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f4f8fb;
+    font-size: 11px;
+}
+
+.footer-column {
+    margin: 0px 30px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-header {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+a.footer-row {
+    display: block;
+    color: #4d5f71;
+}

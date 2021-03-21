@@ -1,0 +1,12 @@
+.navbar {
+    padding: 10px;
+    height: 60px;
+    background-color: #1976d2;
+    font-size: 25px;
+    justify-content: flex-start;
+}
+
+.navbar-header {
+    margin-left: 10px;
+    color: white;
+}

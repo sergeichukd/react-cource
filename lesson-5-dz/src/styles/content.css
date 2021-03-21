@@ -1,0 +1,14 @@
+.card-root {
+    max-width: 345px;
+    margin: 20px;
+}
+
+.card-media {
+    height: 200px;
+}
+
+.good-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
