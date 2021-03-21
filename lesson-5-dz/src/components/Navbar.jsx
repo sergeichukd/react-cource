@@ -11,7 +11,7 @@ export default class Navbar extends React.Component {
             <StoreIcon style={{ color: 'white' }}/>
           </span>
           <span className='navbar-header'>
-            Store
+            Sergeichuk Store
           </span>
         </Container>
       </div>

@@ -3,7 +3,7 @@ export default {
     title: 'Зарабатывайте с Sergeichuk',
     content: [
       {
-        text: 'Ваши товары на Сергейчук',
+        text: 'Ваши товары на Sergeichuk',
         href: '#'
       },
       {
@@ -48,7 +48,7 @@ export default {
         href: '#'
       },
       {
-        text: 'Бренд Сергейчук и ко',
+        text: 'Бренд Sergeichuk&KO',
         href: '#'
       },
       {
@@ -86,7 +86,7 @@ export default {
     title: 'Юридическим лицам',
     content: [
       {
-        text: 'Добавить компанию в Сергейчук Бизнес',
+        text: 'Добавить компанию в SergeichukBusiness',
         href: '#'
       },
       {
@@ -94,7 +94,7 @@ export default {
         href: '#'
       },
       {
-        text: 'Кэшбек 5% c Сергейчук.Счет',
+        text: 'Кэшбек 5% c Sergeichuk.Wallet',
         href: '#'
       },
       {
