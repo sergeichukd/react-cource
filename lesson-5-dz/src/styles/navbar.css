@@ -3,10 +3,46 @@
     height: 60px;
     background-color: #1976d2;
     font-size: 25px;
-    justify-content: flex-start;
+    color: white;
+    text-align: center;
+    display: block;
 }
 
-.navbar-header {
-    margin-left: 10px;
+
+#personalization {
+    margin-right: 20px;
+}
+
+#navbar-header {
+    margin-left: 20px;
+}
+
+#sign-in {
+    margin-right: 10px;
+    font-size: small;
+}
+
+#sign-in a {
     color: white;
+}
+
+#log-in{
+    border: 1px solid white;
+}
+
+#log-in .MuiButton-label{
+    color: white;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-container .MuiSvgIcon-root {
+    margin-right: 5px;
 }

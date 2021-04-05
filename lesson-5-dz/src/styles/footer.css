@@ -1,11 +1,10 @@
 .footer {
-    margin-top: 100px;
     padding: 30px;
     padding-top: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #f4f8fb;
+    background-color: #f1df9463;
     font-size: 11px;
 }
 

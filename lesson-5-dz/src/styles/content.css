@@ -1,13 +1,42 @@
+.main-content {
+    background-color: #ffe56738;
+    padding-bottom: 100px;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
 .card-root {
     max-width: 345px;
     margin: 20px;
+}
+
+.card-root .MuiCardHeader-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-root .MuiCardHeader-subheader{
+    text-align: end;
+    font-size: small;
+}
+
+.card-root .MuiCardContent-root {
+    justify-content: space-between;
+    display: flex;
+}
+
+.card-root .MuiCardContent-root .MuiSvgIcon-root {
+    margin-right: 5px;
 }
 
 .card-media {
     height: 200px;
 }
 
-.good-cards {
+.recipe-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

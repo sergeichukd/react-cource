@@ -1,11 +1,20 @@
 import React from 'react'
-import GoodCard from './GoodCard.jsx'
+import RecipeCard from './RecipeCard.jsx'
 
 export default class Main extends React.Component {
   render() {
-    const goodCards = [...Array(10).keys()].map((value, index) => <GoodCard key={index}/>)
-    return <div className="good-cards">
-      {goodCards}
+    const RecipeCards = [...Array(10).keys()].map((value, index) => <RecipeCard key={index}/>)
+    return <div className="main-content">
+      <header>
+        <div>
+          <h1>Каталог Рецептов</h1>
+        </div>
+      </header>
+      <content>
+        <div className="recipe-cards">
+          {RecipeCards}
+        </div>
+      </content>
     </div>
   }
 }
