@@ -1,6 +1,6 @@
 import React from 'react'
 import StoreIcon from '@material-ui/icons/Store'
-import Button from '@material-ui/core/Button';
+import LoginModal from './LoginModal.jsx'
 
 export default class Navbar extends React.Component {
   render() {
@@ -17,9 +17,7 @@ export default class Navbar extends React.Component {
             <span id="sign-in">
               <a href="#">Зарегистрироваться</a>
             </span>
-            <Button id='log-in' variant="outlined" color="white" color='disabled' size='small'>
-              Вход
-            </Button>
+            <LoginModal />
           </div>
         </div>
       </div>

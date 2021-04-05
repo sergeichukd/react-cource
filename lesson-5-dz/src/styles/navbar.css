@@ -26,11 +26,15 @@
     color: white;
 }
 
-#log-in{
+#log-in {
+    display: inline;
+}
+
+#log-in-button{
     border: 1px solid white;
 }
 
-#log-in .MuiButton-label{
+#log-in-button .MuiButton-label{
     color: white;
 }
 
