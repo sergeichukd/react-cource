@@ -1,6 +1,6 @@
 import React from 'react'
 import StoreIcon from '@material-ui/icons/Store'
-import LoginModal from './LoginModal.jsx'
+import LoginModalWindow from './LoginModalWindow.jsx'
 
 export default class Navbar extends React.Component {
   render() {
@@ -17,7 +17,7 @@ export default class Navbar extends React.Component {
             <span id="sign-in">
               <a href="#">Зарегистрироваться</a>
             </span>
-            <LoginModal />
+            <LoginModalWindow />
           </div>
         </div>
       </div>

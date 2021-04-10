@@ -20,6 +20,7 @@
 #sign-in {
     margin-right: 10px;
     font-size: small;
+    display: inline;
 }
 
 #sign-in a {

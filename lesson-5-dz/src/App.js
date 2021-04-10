@@ -7,6 +7,7 @@ import footerData from '../data/footer_data'
 import './styles/navbar.css'
 import './styles/content.css'
 import './styles/footer.css'
+import './styles/modal_windows.css'
 
 
 class App extends React.Component {

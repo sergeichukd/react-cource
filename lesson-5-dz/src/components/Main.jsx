@@ -10,11 +10,11 @@ export default class Main extends React.Component {
           <h1>Каталог Рецептов</h1>
         </div>
       </header>
-      <content>
+      <div className='content'>
         <div className="recipe-cards">
           {RecipeCards}
         </div>
-      </content>
+      </div>
     </div>
   }
 }
