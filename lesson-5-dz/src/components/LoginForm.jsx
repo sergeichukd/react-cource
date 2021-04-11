@@ -2,6 +2,8 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button'
 
+import PasswordInput from './PasswordInput.jsx'
+
 
 export default class LoginForm extends React.Component {
   constructor() {
@@ -51,15 +53,9 @@ export default class LoginForm extends React.Component {
           margin='dense'
           fullWidth={true}
         />
-        <TextField
-          className="password-text-field"
-          label="Password"
-          variant="outlined"
-          value={this.state.password}
+        <PasswordInput
           onChange={this.handleChangePassword}
-          size='small'
-          margin='dense'
-          fullWidth={true}
+          value={this.state.password}
         />
         <div className="modal-window-login-butttons">
           <Button variant="outlined" color="primary" margin='normal' onClick={this.handleSubmit}>
