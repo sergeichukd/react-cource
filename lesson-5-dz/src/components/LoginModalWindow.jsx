@@ -38,7 +38,7 @@ export default function LoginModalWindow() {
       <h2 id="login-title">
         Log in
       </h2>
-      <LoginForm />
+      <LoginForm onClose={handleClose}/>
     </div>
   );
 

@@ -14,6 +14,7 @@ export default class LoginForm extends React.Component {
     this.handleChangeLogin = this.handleChangeLogin.bind(this);
     this.handleChangePassword = this.handleChangePassword.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   }
 
   handleChangeLogin(event) {
@@ -28,10 +29,13 @@ export default class LoginForm extends React.Component {
     });
   }
 
-
   handleSubmit(event) {
     alert(`Отправленное имя: '${this.state.login}' и пароль: '${this.state.password}'`);
     event.preventDefault();
+  }
+
+  handleClose(event) {
+    this.props.onClose();
   }
 
   render() {
@@ -61,8 +65,8 @@ export default class LoginForm extends React.Component {
           <Button variant="outlined" color="primary" margin='normal' onClick={this.handleSubmit}>
             Login
           </Button>
-          <Button variant="outlined" color="secondary">
-            Cansel
+          <Button variant="outlined" color="secondary" onClick={this.handleClose}>
+            Cancel
           </Button>
         </div>
       </form>
