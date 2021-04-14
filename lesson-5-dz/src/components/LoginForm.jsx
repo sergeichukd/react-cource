@@ -9,7 +9,7 @@ export default class LoginForm extends React.Component {
   constructor() {
     super();
     this.state = {
-      login: '',
+      email: '',
       password: ''
     };
 
@@ -21,7 +21,7 @@ export default class LoginForm extends React.Component {
 
   handleChangeLogin(event) {
     this.setState({
-      login: event.target.value
+      email: event.target.value
     });
   }
 
@@ -32,7 +32,7 @@ export default class LoginForm extends React.Component {
   }
 
   handleSubmit(event) {
-    alert(`Отправленное имя: '${this.state.login}' и пароль: '${this.state.password}'`);
+    alert(`Отправлен email: '${this.state.email}' и пароль: '${this.state.password}'`);
     event.preventDefault();
   }
 
@@ -44,8 +44,8 @@ export default class LoginForm extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <TextField
-          className="login-text-field"
-          label="Login"
+          className="email-text-field"
+          label="Email"
           variant="outlined"
           value={this.state.login}
           onChange={this.handleChangeLogin}
@@ -58,11 +58,11 @@ export default class LoginForm extends React.Component {
           value={this.state.password}
         />
         <div className="modal-window-login-butttons">
-          <Button variant="outlined" color="primary" margin='normal' onClick={this.handleSubmit}>
-            Login
-          </Button>
           <Button variant="outlined" color="secondary" onClick={this.handleClose}>
             Cancel
+          </Button>
+          <Button variant="outlined" color="primary" margin='normal' onClick={this.handleSubmit}>
+            Login
           </Button>
         </div>
       </form>
