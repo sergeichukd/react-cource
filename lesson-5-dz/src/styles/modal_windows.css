@@ -15,3 +15,11 @@ login-modal-window {
     justify-content: space-between;
     margin-top: 20px;
 }
+
+#signin-title {
+    text-align: center;
+}
+
+#login-title {
+    text-align: center;
+}

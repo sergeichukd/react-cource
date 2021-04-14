@@ -18,8 +18,14 @@ export default function PasswordInput(props) {
   };
 
   return (
-    <FormControl variant="outlined" size='small' fullWidth={true} margin='dense'>
-      <InputLabel htmlFor="password-input-field">Password</InputLabel>
+    <FormControl
+      variant="outlined"
+      size='small'
+      fullWidth={true}
+      margin='dense'
+      error={props.differentPasswords}
+    >
+      <InputLabel htmlFor="password-input-field">{props.repeatPassword ? 'Repeat password' : 'Password'}</InputLabel>
       <OutlinedInput
         id="password-input-field"
         type={showPassword ? 'text' : 'password'}
@@ -36,8 +42,9 @@ export default function PasswordInput(props) {
             </IconButton>
           </InputAdornment>
         }
-        labelWidth={70}
+        labelWidth={props.repeatPassword ? 125 : 70}
       />
+      {props.errorHelper}
     </FormControl>
   )
 }

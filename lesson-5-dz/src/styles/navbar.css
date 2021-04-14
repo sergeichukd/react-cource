@@ -18,13 +18,21 @@
 }
 
 #sign-in {
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: small;
     display: inline;
 }
 
-#sign-in a {
+#sign-in button {
     color: white;
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    cursor: pointer;
+}
+
+#sign-in button:hover {
+    text-decoration: underline;
 }
 
 #log-in {
