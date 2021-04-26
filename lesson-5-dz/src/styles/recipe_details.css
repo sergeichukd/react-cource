@@ -1,0 +1,39 @@
+.recipe-details-content {
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+.recipe-info-pad {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.recipe-info-pad > label {
+    margin-inline: 10px;
+}
+
+.recipe-info-pad svg {
+    margin-right: 5px;
+}
+
+.recipe-image {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.recipe-energy-value {
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.recipe-energy-value > .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-block: 20px;
+}
