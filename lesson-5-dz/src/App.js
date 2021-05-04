@@ -18,7 +18,63 @@ class App extends React.Component {
   }
 }
 
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
 )
+
+
+
+// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
+
+// class About extends React.Component{
+//   render(){
+//       return <h2>О сайте</h2>;
+//   }
+// }
+// class NotFound extends React.Component{
+//   render(){
+//       return <h2>Ресурс не найден</h2>;
+//   }
+// }
+
+// class Main extends React.Component{
+//   render(){
+//       return <h2>Главная</h2>;
+//   }
+// }
+
+
+
+
+
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <Router>
+//         <Switch>
+//           {/* <Route exact path='/' component={<Layout footerData={footerData}/>}/> */}
+//           <Route exact path='/' component={Main} />
+//           <Route path='/about' component={About} />
+//           <Route component={NotFound} />
+//         </Switch>
+//       </Router>
+//     )
+//   }
+// }
+
+
+
+// ReactDOM.render(
+//   <Router>
+//     <Switch>
+//       <Route exact path="/" component={Main} />
+//       <Route path="/about" component={About} />
+//       <Route component={NotFound} />
+//     </Switch>
+//   </Router>,
+//   document.getElementById('root')
+// )

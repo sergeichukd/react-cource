@@ -6,18 +6,25 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import { CardHeader } from '@material-ui/core';
-import SendIcon from '@material-ui/icons/send'
 import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
 import LocalDiningIcon from '@material-ui/icons/LocalDining';
 
 export default class RecipeCard extends React.Component {
+  constructor () {
+    super()
+    this.openRecipeDetails = this.openRecipeDetails.bind(this);
+  }
+
+  openRecipeDetails () {
+    console.log('Open Recipe Details');
+  }
+
   render() {
     return(
       <Card className='card-root'>
-        <CardActionArea>
+        <CardActionArea onClick={this.openRecipeDetails}>
           <CardHeader
             title="Блинчики"
             subheader="September 14, 2016"
@@ -42,11 +49,6 @@ export default class RecipeCard extends React.Component {
               <LocalDiningIcon/>
               <span>4</span>
             </label>
-
-            {/* <Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-              across all continents except Antarctica
-            </Typography> */}
           </CardContent>
         </CardActionArea>
         <CardActions>
