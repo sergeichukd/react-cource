@@ -8,6 +8,7 @@ import './styles/navbar.css'
 import './styles/content.css'
 import './styles/footer.css'
 import './styles/modal_windows.css'
+import './styles/recipe_details.css'
 
 
 class App extends React.Component {

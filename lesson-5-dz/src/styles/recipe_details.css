@@ -8,11 +8,11 @@
     justify-content: space-between;
     padding: 20px;
     max-width: 400px;
-    margin-inline: auto;
+    margin: 0 auto;
 }
 
 .recipe-info-pad > label {
-    margin-inline: 10px;
+    margin: 0 10px;
 }
 
 .recipe-info-pad svg {
@@ -36,4 +36,45 @@
     justify-content: space-between;
     max-width: 500px;
     margin-block: 20px;
+}
+
+.ingredients {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ingredients .list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients .dotted {
+    border-bottom: 1px dotted #000;
+    flex: 1;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.recipe-instruction {
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+.recipe-instruction > h5 {
+    text-align: center;
+}
+
+.recipe-advice {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.recipe-advice-box {
+    border: 1px dotted #adb5bd;
+    padding: 25px;
 }
